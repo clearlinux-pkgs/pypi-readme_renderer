@@ -1,5 +1,5 @@
 PKG_NAME := pypi-readme_renderer
-URL = https://files.pythonhosted.org/packages/15/4e/0ffa80eb3e0d0fcc0c6b901b36d4faa11c47d10b9a066fdd42f24c7e646a/readme_renderer-36.0.tar.gz
+URL = https://files.pythonhosted.org/packages/5e/ce/932f615a88ab777f1424277bfdcfe9b6b686a60e5f83d896749571d8e7d9/readme_renderer-37.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
