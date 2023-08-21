@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-readme_renderer
-Version  : 40.0
-Release  : 42
-URL      : https://files.pythonhosted.org/packages/22/ec/12a48255bb1f15e2bd16a75e9f537ea498c8884069de4655afe47d5ffe34/readme_renderer-40.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/22/ec/12a48255bb1f15e2bd16a75e9f537ea498c8884069de4655afe47d5ffe34/readme_renderer-40.0.tar.gz
+Version  : 41.0
+Release  : 43
+URL      : https://files.pythonhosted.org/packages/16/3f/ab83435572c1a3b1a8a6f9bdfc2b5a24dc642583c7c06ceee63a84cfd104/readme_renderer-41.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/16/3f/ab83435572c1a3b1a8a6f9bdfc2b5a24dc642583c7c06ceee63a84cfd104/readme_renderer-41.0.tar.gz
 Summary  : readme_renderer is a library for rendering "readme" descriptions for Warehouse
 Group    : Development/Tools
 License  : Apache-2.0
@@ -62,10 +62,10 @@ python3 components for the pypi-readme_renderer package.
 
 
 %prep
-%setup -q -n readme_renderer-40.0
-cd %{_builddir}/readme_renderer-40.0
+%setup -q -n readme_renderer-41.0
+cd %{_builddir}/readme_renderer-41.0
 pushd ..
-cp -a readme_renderer-40.0 buildavx2
+cp -a readme_renderer-41.0 buildavx2
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687274021
+export SOURCE_DATE_EPOCH=1692630542
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
