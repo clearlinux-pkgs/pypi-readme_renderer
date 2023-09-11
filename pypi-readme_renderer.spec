@@ -4,11 +4,11 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-readme_renderer
-Version  : 41.0
-Release  : 43
-URL      : https://files.pythonhosted.org/packages/16/3f/ab83435572c1a3b1a8a6f9bdfc2b5a24dc642583c7c06ceee63a84cfd104/readme_renderer-41.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/16/3f/ab83435572c1a3b1a8a6f9bdfc2b5a24dc642583c7c06ceee63a84cfd104/readme_renderer-41.0.tar.gz
-Summary  : readme_renderer is a library for rendering "readme" descriptions for Warehouse
+Version  : 42.0
+Release  : 44
+URL      : https://files.pythonhosted.org/packages/b5/35/1cb5a6a97514812f63c06df6c2855d82ebed3e5c02e9d536a78669854c8a/readme_renderer-42.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/b5/35/1cb5a6a97514812f63c06df6c2855d82ebed3e5c02e9d536a78669854c8a/readme_renderer-42.0.tar.gz
+Summary  : readme_renderer is a library for rendering readme descriptions for Warehouse
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: pypi-readme_renderer-license = %{version}-%{release}
@@ -53,8 +53,8 @@ Summary: python3 components for the pypi-readme_renderer package.
 Group: Default
 Requires: python3-core
 Provides: pypi(readme_renderer)
-Requires: pypi(bleach)
 Requires: pypi(docutils)
+Requires: pypi(nh3)
 Requires: pypi(pygments)
 
 %description python3
@@ -62,10 +62,10 @@ python3 components for the pypi-readme_renderer package.
 
 
 %prep
-%setup -q -n readme_renderer-41.0
-cd %{_builddir}/readme_renderer-41.0
+%setup -q -n readme_renderer-42.0
+cd %{_builddir}/readme_renderer-42.0
 pushd ..
-cp -a readme_renderer-41.0 buildavx2
+cp -a readme_renderer-42.0 buildavx2
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692630542
+export SOURCE_DATE_EPOCH=1694446492
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
