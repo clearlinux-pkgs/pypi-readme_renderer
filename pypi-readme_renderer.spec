@@ -7,7 +7,7 @@
 #
 Name     : pypi-readme_renderer
 Version  : 44.0
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/5a/a9/104ec9234c8448c4379768221ea6df01260cd6c2ce13182d4eac531c8342/readme_renderer-44.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5a/a9/104ec9234c8448c4379768221ea6df01260cd6c2ce13182d4eac531c8342/readme_renderer-44.0.tar.gz
 Summary  : readme_renderer is a library for rendering readme descriptions for Warehouse
